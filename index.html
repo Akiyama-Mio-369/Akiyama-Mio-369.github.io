@@ -69,6 +69,47 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-搭建虚拟机" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/10/26/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA/" class="article-date">
+  <time class="dt-published" datetime="2024-10-26T05:04:43.000Z" itemprop="datePublished">2024-10-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2024/10/26/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA/">搭建虚拟机</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>在搭建虚拟机的任务中.我主要借鉴了(<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_42417071/article/details/136327674?spm=1001.2014.3001.5506">基于VMware虚拟机的Ubuntu22.04系统安装和配置（新手保姆级教程）-CSDN博客</a>和[<a target="_blank" rel="noopener" href="https://blog.csdn.net/jennycisp/article/details/138113509?spm=1001.2014.3001.5506">kali Linux 安装教程（保姆级）-CSDN博客</a>这两个教程。</p>
+<hr>
+<p>在完成Ubuntu22.04虚拟机的搭建中，我先通过b站up分享的资源下载了VMware，之后在教程中给的网址下载Ubuntu，但我发现官服首页提供在线下载的版本已经变成了24.04.1，但任务中要求的版本是22.04所以我在网站中寻找到了旧版本，却又发现旧版本只提供种子文件下载了。好在我之前就因为别的需要了解过种子文件的下载，并成功下载出了Ubuntu22.04.5。之后我按照教程步骤一步步推进，却在最后一步卡住，系统报“无法创建新虚拟机: 不具备执行此操作的权限。”错误。之后我重新安装了一遍VMware也没有用，最后我使用管理员模式运行了程序才成功创建好了虚拟机，并拍摄了快照。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/10/26/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA/" data-id="cm2ppxkwa0000lggn8qmcehnw" data-title="搭建虚拟机" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-关于博客搭建的心路历程的文章" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2024/10/23/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9A%84%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B%E7%9A%84%E6%96%87%E7%AB%A0/" class="article-date">
@@ -93,7 +134,7 @@
       
         <p>第一次接触github等相关内容，原本看着任务一头雾水，但是好在b站和学长推荐的CSDN论坛等网络平台上都有人分享了关于搭建博客的教学内容，于是我便根据教学视频和教学博客的步骤先注册了github账号，但在注册界面时网页忽然卡了，之后开启了加速器顺利完成了注册。接着我下载了git与nodejs并完成了ssh密钥的配置，之后我跟着教程的步骤一路畅通，但在最后hexo d时出现了错误，我只得倒回前面的步骤一步步检查，却都没发现问题，我有点困惑但并不气馁。于是我便向一位已经搭建完博客的室友请教，他在检查一番无果后在CSDN上检索相关问题希望找到解决方法。最后我们无意间在一篇帖子上发现有人提示要把加速器关闭，这时我才发现我的加速器还开着，果不其然，把加速器关闭后便成功完成了hexo d的步骤。</p>
 <hr>
-<p>搭建好博客后我便开始研究如何在博客上传文章，这时我又接触了个新词markdown，我在b站上浏览了几款笔记软件的测评后，最终选择了Typora，但是我又发现Typora激活需要爆米（补药啊）于是我便在b站上找到了大佬分享的免费激活教程成功白嫖。之后我简单学习了markdown的语法后便完成了这篇文章并成功上传到了博客上。</p>
+<p>搭建好博客后我便开始研究如何在博客上传文章，这时我又接触了个新词markdown，我在b站上浏览了几款笔记软件的测评后，最终选择了Typora，但是我又发现Typora激活需要爆米（补药啊）于是我便在b站上找到了大佬分享的免费激活教程成功白嫖。之后我简单学习了markdown的语法后便完成了这篇文章，但在上传时又出现了报错，多次尝试无果后我试了试在之前的搭建视频里学到的hexo clean清理缓存，之后再进行hexo d终于是成功将文章上传到了博客上。</p>
 <hr>
 <p>至此，我终于完成第一项任务，虽然中途遇到了不少坎坷，但我也在其中体会到了自主学习探索知识乐趣。同时，这次的经历也使我对今后的学习更加的充满期待！</p>
 
@@ -192,6 +233,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2024/10/26/%E6%90%AD%E5%BB%BA%E8%99%9A%E6%8B%9F%E6%9C%BA/">搭建虚拟机</a>
+          </li>
         
           <li>
             <a href="/2024/10/23/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E7%9A%84%E5%BF%83%E8%B7%AF%E5%8E%86%E7%A8%8B%E7%9A%84%E6%96%87%E7%AB%A0/">关于博客搭建的心路历程的文章</a>
